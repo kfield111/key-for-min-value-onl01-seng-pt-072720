@@ -6,7 +6,6 @@ captured_value = 0
 name_hash.each do |key, value|
 while value > captured_value
   captured_value = value
-else smallest_value = key
   end
   smallest_value
 end
