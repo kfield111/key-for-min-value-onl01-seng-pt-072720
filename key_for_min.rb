@@ -4,9 +4,8 @@
 def key_for_min_value(name_hash)
 captured_value = 0
 name_hash.each do |key, value|
-  if value > captured_name
-    captured_name = value
-    captured_name
+  while value > captured_value
+    captured_value = value
   end
 end
 end
