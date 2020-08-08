@@ -9,6 +9,6 @@ name_hash.each do |key, value|
     current_value = value
     name = key
   end
-name
 end
+name
 end
