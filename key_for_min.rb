@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
 name = nil
 name_hash.each do |key, value|
-value <=> value
+#value <=> value
 name = key
 end
 name
