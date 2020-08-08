@@ -6,7 +6,7 @@ current_value = 0
 captured_value = current_value
 name_hash.each do |key, value|
 if value > captured_value
-  captured_value = value
+  current_value = value
   end
 end
 end
