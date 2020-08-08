@@ -6,6 +6,7 @@ captured_name = 0
 name_hash.collect do |key, value|
   if captured_name < value
     captured_name = value
+    captured_value
   end
 end
 end
