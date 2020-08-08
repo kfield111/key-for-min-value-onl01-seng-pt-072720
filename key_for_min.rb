@@ -9,5 +9,5 @@ name_hash.each do |key, value|
 new_array.push value
 end
 new_array.each do {|a, b| a <=> b}
-name
+name = new_array.first
 end
