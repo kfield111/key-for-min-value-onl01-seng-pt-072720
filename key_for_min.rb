@@ -8,6 +8,6 @@ name_hash.each do |key, value|
     captured_name = value
     captured_name
   end
-  captured_name.first.key
+  captured_name.first
 end
 end
