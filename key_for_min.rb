@@ -5,6 +5,7 @@ def key_for_min_value(name_hash)
 captured_value = nil
 name_hash.each do |key, value|
 if value > captured_value
+  captured_value = value
   end
 end
 end
