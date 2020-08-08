@@ -5,6 +5,6 @@ def key_for_min_value(name_hash)
 captured_value = 0
 name_hash.each do |key, value|
 value <=> value
-name_hash.first
+name_hash
 end
 end
