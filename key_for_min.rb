@@ -6,8 +6,7 @@ captured_value = 0
 name_hash.each do |key, value|
   while value > captured_value
     captured_value = value
-    name = key
+    name = "#{key}"
   end
 end
-name
 end
