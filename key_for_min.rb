@@ -6,6 +6,8 @@ name = nil
 current_value = 0
 name_hash.each do |key, value|
   if current_value == value || value < current_value
+    current_value = value
+    name = key
 name = key
 end
 name
