@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
 captured_name = 0
-name_hash.collect do |key, value|
-  if captured_name < value
+name_hash.each do |key, value|
+  if value > captured_name
     captured_name = value
     captured_value
   end
